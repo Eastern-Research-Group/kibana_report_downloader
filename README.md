@@ -46,7 +46,7 @@ python kibana_report_downloader.py --del_wip=false --data_folder=.\data --report
 
 ## Future goals
 
-Please see the the issue tracker.
+Please see the the [issue tracker[](https://github.com/Eastern-Research-Group/kibana_report_downloader/issues).
 
 ## Disclaimer
 
