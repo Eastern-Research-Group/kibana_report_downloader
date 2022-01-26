@@ -1,7 +1,7 @@
 # Kibana Report Downloader
 A simple python script that allows the downloading of Kibana reports based on a configurable timeframe and output file size.
 
-## Reasoning for its creation
+## Reason for its creation
 
 The logs supporting my application are only available to me via a Kibana interface which is tied to a Cloud Foundry implementation. The Kibana instance is configured to limit the download file size and quietly truncate at 20MB. Based on this, I needed a way to easily split my report request up into chunks to work within the 20MB download limit but to also reconstruct the chunks back into a single report file.
 
